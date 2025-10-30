@@ -16,7 +16,7 @@ public class Estanteria {
             cantidad++;
             System.out.println("Vinilo agregado");
         } else {
-            System.out.println("La estanteria está llena");
+            System.out.println("La estanteria esta llena");
         }
     }
 
@@ -41,11 +41,11 @@ public class Estanteria {
     }
 
     public void mostrarEstanteria() {
-        System.out.println("\n ESTANTERÍA DE VINILOS ");
+        System.out.println("\n ESTANTERIA DE VINILOS ");
         System.out.println("Cantidad de vinilos: " + cantidad + "/100");
 
         if (cantidad == 0) {
-            System.out.println("La estantería está vacía.");
+            System.out.println("La estantería está vacia");
         } else {
             for (int i = 0; i < cantidad; i++) {
                 System.out.println((i + 1) + ". Artista: " + vinilos[i][0]);
